@@ -1,0 +1,27 @@
+
+.projects-section{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(292px,auto));
+    align-items: center;
+    gap: 1.4rem;
+    cursor: pointer;
+    margin-left: 60px;
+    
+ }
+ .projects-section img{
+     transition: all .6s ease;
+ }
+ .projects-section img:hover{
+     transform:scale(1.04) translateY(-1px) ;
+ }
+ @media(min-width:769px) and (max-width:1280px){
+     .projects-section{
+         grid-template-columns: repeat(auto-fit, minmax(320px,auto));
+     }
+ }
+ @media(max-width:768){
+     .projects-section{
+         grid-template-columns: repeat(auto-fit, minmax(360px,auto));
+     }
+ }
+ 
