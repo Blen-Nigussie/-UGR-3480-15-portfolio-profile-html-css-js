@@ -84,7 +84,7 @@ main {
     .home-content {
         display: block;
     }
-    .cv-btn{
+    .cv-btn a{
         margin-left: 50px;
     }
     .home-info {
@@ -138,7 +138,7 @@ main {
     .cv-btn a { 
         font-size: 20px; 
     } 
-    .cv-btn{
+    .cv-btn a{
         margin-left: 50px;
     }
     .social-links { 
