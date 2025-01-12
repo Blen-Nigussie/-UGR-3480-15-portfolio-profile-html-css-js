@@ -84,7 +84,9 @@ main {
     .home-content {
         display: block;
     }
-
+    .cv-btn{
+        margin-left: 50px;
+    }
     .home-info {
         text-align: center;
     }
