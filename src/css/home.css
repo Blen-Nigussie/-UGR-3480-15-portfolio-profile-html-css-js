@@ -58,7 +58,7 @@ main {
     background: var(--main-color);
     color: var(--bg-color);
     padding: 12px 24px;
-    margin-left: 100px;
+    margin-left: 200px;
     border-radius: 8px;
     text-transform: capitalize;
     font-weight: 300;
@@ -137,8 +137,10 @@ main {
     } 
     .cv-btn a { 
         font-size: 20px; 
-        margin-left: 160px; 
     } 
+    .cv-btn{
+        margin-left: 50px;
+    }
     .social-links { 
         margin-left: 180px;  
         /* bottom: -10%;  */
@@ -174,9 +176,6 @@ main {
     } 
     .cv-btn a { 
         font-size: 14px; 
-    } 
-    .social-links {  
-        
     } 
     .social-links a { 
         font-size: 18px; 
