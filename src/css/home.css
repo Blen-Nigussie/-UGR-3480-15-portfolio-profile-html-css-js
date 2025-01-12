@@ -57,7 +57,7 @@ main {
 .cv-btn a {
     background: var(--main-color);
     color: var(--bg-color);
-    padding: 12px 24px;
+    padding: 12px;
     margin-left: 200px;
     border-radius: 8px;
     text-transform: capitalize;
