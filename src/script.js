@@ -6,7 +6,10 @@ function menuToggle() {
 }
 menu.addEventListener('click', menuToggle);
 // menu.addEventListener('touchstart', menuToggle);
-menu.addEventListener('touchend', menuToggle);
+menu.addEventListener('touchend', function (e) {
+    e.preventDefault();
+    menuToggle();
+});
 window.onscroll = () =>{
     menu.classList.remove("bx-x");
     navlist.classList.remove("open");
